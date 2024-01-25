@@ -3,11 +3,15 @@ package cn.sixmillions.blog;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+/**
+ * @author six
+ * @date 2024/01/25
+ */
 @SpringBootTest
-class NextBlogApiApplicationTests {
+public class NextBlogApiApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    public void contextLoads() {
+    }
 
 }
