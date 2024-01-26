@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.sixmillions.blog.mapper.PostMapper">
+
+    <resultMap type="cn.sixmillions.blog.entity.Post" id="PostMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="title" column="title" jdbcType="VARCHAR"/>
+        <result property="slug" column="slug" jdbcType="VARCHAR"/>
+        <result property="thumbnail" column="thumbnail" jdbcType="VARCHAR"/>
+        <result property="postSummary" column="post_summary" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="INTEGER"/>
+        <result property="topPriority" column="top_priority" jdbcType="INTEGER"/>
+        <result property="wordCount" column="word_count" jdbcType="INTEGER"/>
+        <result property="visits" column="visits" jdbcType="INTEGER"/>
+        <result property="likes" column="likes" jdbcType="INTEGER"/>
+        <result property="commentsCount" column="comments_count" jdbcType="INTEGER"/>
+        <result property="postType" column="post_type" jdbcType="INTEGER"/>
+        <result property="postFormat" column="post_format" jdbcType="VARCHAR"/>
+        <result property="disallowComment" column="disallow_comment" jdbcType="BOOLEAN"/>
+        <result property="deleted" column="deleted" jdbcType="INTEGER"/>
+        <result property="createdBy" column="created_by" jdbcType="VARCHAR"/>
+        <result property="createdAt" column="created_at" jdbcType="TIMESTAMP"/>
+        <result property="updateBy" column="update_by" jdbcType="VARCHAR"/>
+        <result property="updateAt" column="update_at" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+</mapper>
+
